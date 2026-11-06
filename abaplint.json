@@ -1,0 +1,20 @@
+{
+  "global": {
+    "files": "/**/*.abap",
+    "skipGeneratedGatewayClasses": true
+  },
+  "syntax": {
+    "version": "v757",
+    "errorNamespace": "^Z"
+  },
+  "rules": {
+    "parser_error": true,
+    "check_syntax": true,
+    "unknown_types": true,
+    "unused_variables": true,
+    "keyword_case": { "style": "upper" },
+    "line_length": { "length": 120 },
+    "whitespace_end": true,
+    "empty_line_in_statement": true
+  }
+}
